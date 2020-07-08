@@ -1,17 +1,14 @@
 .Post {
-    width: 100px;
+    width: 200px;
     padding: 16px;
     text-align: center;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.14);
     margin: 10px;
     box-sizing: border-box;
     cursor: pointer;
-}
-
-.Post:hover,
-.Post:active {
-    background-color: #C0DDF5;
+    background-color: #fff;
+    transition: all .25s ease-in-out;
 }
 
 .Author {
